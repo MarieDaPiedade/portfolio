@@ -1,0 +1,37 @@
+/***DESKTOP VERSION***/
+
+.home {
+    margin: 4em 1.5em 3em 1.5em;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    align-items: center;
+}
+#proud-img {
+    width: 380px;
+    height: auto;
+}
+
+.hello {
+    font-size: 4em;
+}
+.text-pres {
+    font-size: 1.4em;
+}
+
+/***MOBILE VERSION***/
+  
+ @media (max-width: 700px) {
+
+    .hello {
+        font-size: 2.5em;
+    }
+    #proud-img {
+        width: 100px;
+        margin-bottom: 2.6em;
+    }
+    .text-pres {
+        font-size: 0.8em;
+    }
+
+ }
